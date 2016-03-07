@@ -13,7 +13,7 @@ void init(int addr, int size, int num){
 	node[num].size = size;
 	node[num].addr = addr;
 	node[num].none = true;
-	if((size / 2) < 32){
+	if((size / 2) < 8){
 		node[num].left = -1;
 		node[num].right = -1;
 		return;
