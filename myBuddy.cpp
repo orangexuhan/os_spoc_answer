@@ -83,6 +83,7 @@ int main(){
 	cout << malloc(0, 512) << endl;
 	cout << malloc(0, 200) << endl;
 	free(0, 512);
+	free(0, 250);
 	cout << malloc(0, 56) << endl;
 	cout << malloc(0, 56) << endl;
 	free(0, 576);
